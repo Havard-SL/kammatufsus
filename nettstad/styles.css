@@ -1,0 +1,8 @@
+p {
+    background-color: color-mix(in srgb, aqua, transparent 30%);
+}
+
+table, th, td {
+    border: 3px solid blue;
+    border-collapse: collapse;
+}

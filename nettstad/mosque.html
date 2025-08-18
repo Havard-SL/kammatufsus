@@ -2,16 +2,9 @@
 <html lang="nn">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
     <title>Kammatufsus.com</title>
-    <style>
-        p {
-          background-color: color-mix(in srgb, aqua, transparent 30%);
-        }
-        table, th, td {
-          border: 3px solid blue;
-          border-collapse: collapse;
-        }
-    </style>
   </head>
   <body style="background-image: url('ganesha.jpeg');">
     <h1 style="background-color: chocolate;text-align: center;color: aliceblue;font-family: 'Times New Roman', Times, serif;margin: 25px;">Ein eksklusiv heimaspaoppleving som får det til å seie ¿MosQue?!!</h1>
@@ -21,8 +14,37 @@
       <source src="meditation.mp3" type="audio/mp3">
     </audio>
     <hr>
-    <div style="background-color: color-mix(in srgb, tomato, transparent 30%);">
+    <section style="background-color: color-mix(in srgb, aquamarine, transparent 30%);">
+      <h2>
+        Kva er "¿MosQue?"?
+      </h2>
+      <p>
+        "¿MosQue?" er ein superhøgkvalitets massasje i 1 time, gjort heime hos deg! <br>
+        Massasjen blir gjort med roleg musikk, koseleg stemning, aromaer og massasjeolja av høgaste kvalitet!
+        Massasjen kjem til å vere så god at du kjem til å skrika ut <b>"¿Que?!!"</b>.
+      </p>
+    </section>
+    <hr>
+    <section style="background-color: color-mix(in srgb, aquamarine, transparent 30%);">
+      <h2>
+        Book time idag!
+      </h2>
+      <h3 style="color: blueviolet;">
+        Det er diverre ikkje mogleg å booke "¿MosQue?" timar direkte. Berre kundar med ein gyldig "¿MosQue?" gåvekortskode kan få denne fantastiske opplevinga!
+      </h3>
       <p>For å kreve din "¿MosQue?" oppleving, venlegst skriv inn gåvekortskoden under:</p>
-    </div>
+      <div style="width: 70%; padding: 10px 0 10px 0; margin: auto; background-color: darkseagreen;">
+        <form style="width: 30%;margin: auto;" onsubmit="sjekk_koden(); return false">
+          <label for="kode">Kode:</label>
+          <input type="text" id="kode" name="kode">
+          <br>
+          <input type="submit" value="Send inn">
+        </form>
+      </div>
+    </section>
+
+    <section id="resultatseksjon" style="visibility: hidden;">
+      <p id="resultattekst"></p>
+    </section>
   </body>
 </html>
