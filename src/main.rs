@@ -4,7 +4,7 @@ use std::{
     net::{TcpListener, TcpStream},
 };
 
-const VALID_FILES: [&str; 3] = ["hello.html", "pumpupjam.mp3", "favicon.ico"];
+const VALID_FILES: [&str; 8] = ["hello.html", "pumpupjam.mp3", "favicon.ico", "Hugo.jpeg", "ganesha.jpeg", "mosque.html", "meditation.mp3", "robots.txt"];
 
 fn main() {
     println!("Hello, world!");
