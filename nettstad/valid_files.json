@@ -1,0 +1,15 @@
+[
+    {"name":"hello.html","mime_type":"text/html"},
+    {"name":"mosque.html","mime_type":"text/html"},
+
+    {"name":"ganesha.jpeg","mime_type":"image/jpeg"},
+    {"name":"Hugo.jpeg","mime_type":"image/jpeg"},
+
+    {"name":"pumpupjam.mp3","mime_type":"audio/mpeg"},
+    {"name":"meditation.mp3","mime_type":"audio/mpeg"},
+
+    {"name":"styles.css","mime_type":"text/css"},
+    {"name":"scripts.js","mime_type":"text/javascript"},
+    {"name":"favicon.ico","mime_type":"image/x-icon"},
+    {"name":"robots.txt","mime_type":"text/plain"}
+]

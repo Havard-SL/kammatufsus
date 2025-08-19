@@ -1,5 +1,4 @@
 function sjekk_koden() {
-    event.preventDefault();
     resultatseksjon = document.getElementById("resultatseksjon");
     resultatteskst = document.getElementById("resultattekst");
 
